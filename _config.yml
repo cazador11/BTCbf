@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+title: Btcbf
+description: A fast and efficient bitcoin private key brute force tool
+show_downloads: true
+google_analytics:
+github:
+  repository_url: https://github.com/vlnahp/Btcbf
+  zip_url: https://github.com/vlnahp/Btcbf/zipball/main
+  tar_url: https://github.com/vlnahp/Btcbf/tarball/main

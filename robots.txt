@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vlnahp.github.io/Btcbf/sitemap.xml 

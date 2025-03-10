@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Btcbf - Bitcoin Private Key Brute Force Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fab fa-bitcoin"></i> Btcbf</h1>
+            <p class="subtitle">A fast and efficient Bitcoin private key brute force tool</p>
+            <div class="buttons">
+                <a href="https://github.com/vlnahp/Btcbf" class="btn primary"><i class="fab fa-github"></i> View on GitHub</a>
+                <a href="https://github.com/vlnahp/Btcbf/releases/download/v1.2.1/Btcbf-windows64-v.1.2.0.tar.xz" class="btn secondary"><i class="fas fa-download"></i> Download Latest Release</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast & Efficient</h3>
+                    <p>Optimized for speed using the bit library for Bitcoin operations</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Online & Offline Modes</h3>
+                    <p>Check addresses through an online API or an offline database</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-random"></i>
+                    <h3>Multiple Methods</h3>
+                    <p>Generate random or sequential private keys and check their balances</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Multi-threaded</h3>
+                    <p>Utilizes multiple CPU cores for improved performance</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security Analysis</h3>
+                    <p>Demonstrates Bitcoin's cryptographic security through practical experimentation</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Interactive CLI</h3>
+                    <p>User-friendly command-line interface with guided prompts and instructions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="installation">
+        <div class="container">
+            <h2>Quick Start</h2>
+            <div class="code-block">
+                <pre><code>$ git clone https://github.com/vlnahp/Btcbf.git
+$ cd Btcbf
+$ pip install -r requirements.txt
+$ python Btcbf.py  # or python3 Btcbf.py on Linux</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="usage">
+        <div class="container">
+            <h2>Usage</h2>
+            <p>Just execute the command <code>python Btcbf.py</code> or <code>python3 Btcbf.py</code> on Linux. The program will guide you through the process with interactive prompts.</p>
+            <p>Results will be saved to <code>foundkey.txt</code> in the main directory.</p>
+            
+            <h3>Requirements</h3>
+            <p>In offline mode, a database is necessary. By default, it is <code>address.txt</code> containing some addresses.</p>
+            <p>Users who wish can download the latest text file from <a href="http://addresses.loyce.club/">addresses.loyce.club</a>, rename and replace it with the "address.txt". Be careful about memory issues - only use this database if you have sufficient RAM!</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About the Project</h2>
+            <p>The main goal of Btcbf is to learn Python while exploring Bitcoin security concepts. The tool demonstrates the practical impossibility of brute-forcing Bitcoin private keys, highlighting the security of the Bitcoin network.</p>
+            <p>This project is open source and licensed under the strong copyleft license, requiring that any modifications or larger works using this code must be made available under the same license.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span class="current-year">2023</span> Btcbf Project. Licensed under strong copyleft license.</p>
+            <div class="social">
+                <a href="https://github.com/vlnahp/Btcbf"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
